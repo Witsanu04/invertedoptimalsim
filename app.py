@@ -9,7 +9,6 @@ import time
 st.set_page_config(
     page_title="Inverted-Optimal Sim",
     layout="wide",
-    page_icon="🥀"
 )
 
 # ---------------------------------------------------------
@@ -390,3 +389,4 @@ summary_html = f"""
 </div>
 """
 st.markdown(summary_html, unsafe_allow_html=True)
+
